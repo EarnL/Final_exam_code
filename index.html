@@ -1,0 +1,111 @@
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arnel's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://assets.onecompiler.app/42y3ybauj/3x2zp2yd7/1000063355.png" alt="Logo">
+    </div>
+    <nav>
+      <div class="burger-menu" onclick="toggleMenu()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#" onclick="showSection('home')">Home</a></li>
+        <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+        <li><a href="#" onclick="showSection('work-experience')">Work Experience</a></li>
+        <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+        <li><a href="#" onclick="showSection('about')">About Me</a></li>
+        <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content">
+    <!-- Home Section -->
+    <section id="home" class="section">
+      <div class="hero">
+        <div class="hero-text">
+          <h2>Hi There, I am Arnel Caparros</h2>
+          <h1>UI/UX DESIGNER & WEB DEVELOPER</h1>
+          <button class="btn" onclick="showSection('about')">About Me</button>
+          <button class="btn" onclick="showSection('contact')">Contact</button>
+        </div>
+        <div class="profile-image">
+          <img src="https://assets.onecompiler.app/42y3ybauj/42zrt2xtc/1000063305.png" alt="Arnel's Photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section" style="display: none;">
+      <h1>Skills</h1>
+      <p>• Front-End Development:  Expert (HTML, CSS, JavaScript, React), Proficient (Vue.js), Familiar (Angular)</p>
+      <p>• UI/UX Design:  Proficient (Figma, Adobe XD, user research, wireframing, prototyping)</p>
+      <p>• Version Control: Git, GitHub</p>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="work-experience" class="section" style="display: none;">
+      <h2>Experience</h2>
+      <div>
+        <h3>Front-End Developer</h3>
+        <h4>Company Name, City, State</h4>
+        <p>January 2020 - Present</p>
+        <ul>
+          <li>Developed responsive web applications using HTML, CSS, JavaScript, and React.</li>
+          <li>Collaborated with designers and back-end developers to implement features and improve user experience.</li>
+          <li>Led the development of a new website that increased website traffic by 20%.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Web Designer</h3>
+        <h4>Another Company Name, City, State</h4>
+        <p>June 2018 - December 2019</p>
+        <ul>
+          <li>Designed and implemented user interfaces for web applications using Figma and Adobe XD.</li>
+          <li>Conducted user research to understand user needs and improve website usability.</li>
+          <li>Created visual assets and prototypes for new website features.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section" style="display: none;">
+      <h1>Projects</h1>
+      <p>AYUKO NA SIR ಥ⁠‿⁠ಥ</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section" style="display: none;">
+      <h1>About Me</h1>
+      <p>I'm Arnel Caparros, a passionate web developer dedicated to creating user-friendly and visually appealing websites.  My goal is to build online experiences that are both functional and memorable. I achieve this through a combination of intuitive design, clean code, and a focus on the user journey.  I'm proficient in a range of technologies and enjoy collaborating with clients to bring their visions to life.  I'm committed to staying current with industry best practices to ensure my work remains innovative and effective.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section" style="display: none;">
+      <h2>Contact Me</h2>
+      <div>
+        <h3>Arnel N. Caparros</h3>
+        <p>Phone No.: 09858478708</p>
+        <p>Email: arnelcaparros02@gmail.com</p>
+        <p>Facebook: <a href="https://www.facebook.com/arnel.caparros.2024?mibextid=ZbWKwL">Arnel Caparros</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>2024 Copyright | Arnel's Portfolio | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
